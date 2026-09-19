@@ -10,6 +10,9 @@
 然后你可以[在这里在线使用](https://link.3ceng.cn/view/5584e5eb)
 也可以下载仓库里面的html
 然后上传音频
+你如果已经有震动了
+请根据下文中的路径提取plist
+然后附加到加导入已有plist那里
 那些参数一般默认就可以
 然后点击开始转换
 然后就可以点击下载plist
@@ -17,17 +20,6 @@
 给它删掉
 OK我们把这个plist命名成UserGeneratedVibrationPatterns.plist
 然后覆盖/var/mobile/Media/Vibrations/UserGeneratedVibrationPatterns.plist
-注意会覆盖你本来的震动
-然后如果你这个铃声是要做电话铃声
-你要手动打开这个plist
-找到root➡️usergeneratedvibration:<uuid>
-开头如果是no
-你就把item1的数字+139
-如果是yes
-你就在最前面添加一个no布尔值
-然后添加一个数字139
-当然结尾也要剪
-不够就退位剪
 OK
 
 现在去设置里选择你的声音和震动吧
